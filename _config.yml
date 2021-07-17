@@ -2,11 +2,12 @@
 title: David C. Lafferty
 email: davidcl2@illinois.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  David C. Lafferty is a Ph.D. candidate in the Departmenr of Atmospheric Sciences
+  at the University of Illinois at Urbana-Champaign. David's research interests
+  includes climate change and its relation to multi-sector dynamics and decision-making
+  under uncertainty.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://david0811.github.io" # the base hostname & protocol for your site
 twitter_username: DavidCLafferty
 github_username:  david0811
 orcid_id: 0000-0003-2098-6885
