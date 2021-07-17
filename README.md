@@ -9,6 +9,6 @@ I use data-driven navigation, which you can see in the `menu.yml` file in the `_
 
 Mobile support is clearly functional, though some white-spacing could be improved. Feel free to offer improvements if you'd like.
 
-`css` and `_sass` directories also functional, if a bit cluttered. Do observe new colors I created for `$clemson-orange` and `$clemson-purple` in `css/main.scss`.
+`css` and `_sass` directories also functional, if a bit cluttered. Do observe new colors I created for `$color-2` and `$color-1` in `css/main.scss`.
 
 Feel free to contact me at svmille@clemson.edu. Send along some cheers too if you find it useful.
