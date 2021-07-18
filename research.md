@@ -4,6 +4,11 @@ title: Research
 permalink: /research/
 ---
 
-{% include image.html url="/images/octojekyll.png" caption="Octojekyll." width=300 align="right" %}
+  <h2>Journal Articles</h2>
+    {% my-bibliography -f my-library --query @article %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit mattis nulla eu cursus. Fusce finibus, orci sit amet tincidunt fermentum, risus ante pharetra nisi, eget tempus tellus tellus ut est. Nunc tempus cursus arcu mattis ultricies. Cras volutpat purus et lectus facilisis tempor. Suspendisse at lorem feugiat, feugiat massa vel, scelerisque dolor. Proin justo nisl, mattis eu sapien in, efficitur fringilla nulla. Phasellus placerat, lacus in venenatis tristique, risus dolor eleifend felis, vitae finibus augue nibh ut libero. Morbi sit amet tincidunt lorem.
+  <!-- <h2>Papers In Review or In Press</h2>
+    {% bibliography -f library --query @misc %}
+
+  <h2>Conference Papers</h2>
+    {% bibliography -f library --query @inproceedings %} -->
