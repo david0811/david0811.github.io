@@ -21,6 +21,21 @@ permalink: blog/:year/:month/:title
 jobtitle: "Ph.D. Candidate"
 excerpt_separator: "<!--more-->"
 
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap
+
+scholar:
+  style: american-geophysical-union
+  source: _bibliography
+  bibliography: libraryDL.bib
+  bibliography_template: bib
+  sort_by: date,year,month
+  order: descending
+  bibliography_list_tag: div
+  bibliography_item_tag: div
+  repository: _bibliography
+
 # SEO stuff
 # google_author: ""
 # google_site_verification: ""
