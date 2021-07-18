@@ -1,0 +1,4 @@
+[submodule "my-bibliography"]
+	path = my-bibliography
+	url = https://github.com/david0811/my-bibliography.git
+	branch = main
