@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
   <h2>Journal Articles</h2>
-    {% my-bibliography -f my-library --query @article %}
+    {% bibliography -f libraryDL --query @article %}
 
   <!-- <h2>Papers In Review or In Press</h2>
     {% bibliography -f library --query @misc %}
