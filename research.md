@@ -7,7 +7,7 @@ permalink: /research/
 ## Journal Articles
 <!-- NOTE! formatted in PNAS style from Papers -->
 ### 2021
-* *(in revision)* D. Lafferty, R. Sriver, I. Haqiqi, T. Hertel, K. Keller, and R. Nicholas, **Statistically bias-corrected and downscaled climate models underestimate the adverse effects of extreme heat on U.S. maize yields**. *Commun. Earth Environ.* (2021)\
+* D. Lafferty, R. Sriver, I. Haqiqi, T. Hertel, K. Keller, and R. Nicholas, **Statistically bias-corrected and downscaled climate models underestimate the adverse effects of extreme heat on U.S. maize yields**. *Commun. Earth Environ.* __2__, 196 (2021)\
 [![Manuscript link](https://img.shields.io/static/v1?label=&message=Open%20Access&color=008000)](https://www.nature.com/articles/s43247-021-00266-9)
 [![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/BCSD_CornYields_UQ)
 
