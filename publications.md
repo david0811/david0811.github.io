@@ -13,7 +13,8 @@ permalink: /publications/
 ### 2021
 * **D.C. Lafferty**, R.L. Sriver, I. Haqiqi, T.W. Hertel, K. Keller, R.E. Nicholas; Statistically bias-corrected and downscaled climate models underestimate the adverse effects of extreme heat on U.S. maize yields. *Commun. Earth Environ.* 2, 196 (2021)\
 [![Manuscript link](https://img.shields.io/static/v1?label=&message=Open%20Access&color=008000)](https://www.nature.com/articles/s43247-021-00266-9)
-[![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/BCSD_CornYields_UQ)
+[![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/BCSD_CornYields_UQ)\
+Press coverage: [University of Illinois LAS News](https://las.illinois.edu/news/2021-11-12/researchers-uncover-long-term-shortcomings-predicting-corn-yields)
 
 ### 2020
 * **D.C. Lafferty**, A. Rothkopf; Improved Gauss law model and in-medium heavy quarkonium at finite density and velocity. *Phys Rev D* 101, 056010 (2020)\
