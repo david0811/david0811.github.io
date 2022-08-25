@@ -7,7 +7,7 @@ permalink: /publications/
 <!-- NOTE! formatted in PNAS style from Papers -->
 
 ### 2022
-* V. Srikrishnan, **D.C. Lafferty**,  T.E. Wong, J.R. Lamontagne, J.D. Quinn, S. Sharma, J.M. Nusrat, J.D. Herman, R.L. Sriver, J.F. Morris, B.S. Lee; Uncertainty analysis in multi-sector systems: Considerations for risk analysis, projection, and planning for complex systems. *Earth's Future* (2022).\
+* V. Srikrishnan, **D.C. Lafferty**,  T.E. Wong, J.R. Lamontagne, J.D. Quinn, S. Sharma, J.M. Nusrat, J.D. Herman, R.L. Sriver, J.F. Morris, B.S. Lee; Uncertainty analysis in multi-sector systems: Considerations for risk analysis, projection, and planning for complex systems. *Earth's Future* (2022)\
 [![Manuscript link](https://img.shields.io/static/v1?label=&message=Open%20Access&color=008000)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002644)
 [![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/EarthsFuture_2022_MSD_Uncertainty)
 
