@@ -9,8 +9,9 @@ permalink: /publications/
 ### 2023
 * **Assessment of Storm-Associated Precipitation and its Extremes using Observations and Climate Model Short-Range Hindcasts**, WY. Wu, HS. Ma, <ins>D.C. Lafferty</ins>, Z. Feng, P. Ullrich, Q. Tang, JC. Golaz, D. Galea, HH. Lee, submitted (2023)
 
-* **Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6**, <ins>D.C. Lafferty</ins> & R.L. Sriver; in review (2023)\
-[![Preprint](https://img.shields.io/static/v1?label=&message=Preprint&color=blueviolet)](https://doi.org/10.22541/essoar.168286894.44910061/v1)
+* **Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6**, <ins>D.C. Lafferty</ins> & R.L. Sriver; *npj Clim. Atmos. Sci.* (2023)\
+[![Manuscript link](https://img.shields.io/static/v1?label=&message=Open%20Access&color=008000)](https://www.nature.com/articles/s41612-023-00486-0)
+[![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/EarthsFuture_2022_MSD_Uncertainty)
 
 ### 2022
 * **Uncertainty analysis in multi-sector systems: Considerations for risk analysis, projection, and planning for complex systems**, V. Srikrishnan, <ins>D.C. Lafferty</ins>,  T.E. Wong, J.R. Lamontagne, J.D. Quinn, S. Sharma, J.M. Nusrat, J.D. Herman, R.L. Sriver, J.F. Morris, B.S. Lee; *Earth's Future* (2022)\
