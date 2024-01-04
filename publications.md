@@ -14,8 +14,8 @@ permalink: /publications/
 
 * **Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6**, <ins>D.C. Lafferty</ins> & R.L. Sriver; *npj Clim. Atmos. Sci.* (2023)\
 [![Manuscript link](https://img.shields.io/static/v1?label=&message=Open%20Access&color=008000)](https://www.nature.com/articles/s41612-023-00486-0)
-[![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/lafferty-sriver_2023_npjCliAtm)
-*Interactive visualization*: <a href="https://lafferty-sriver-2023-downscaling-uncertainty.msdlive.org/" target="_blank">MSD-LIVE Jupyter dashboard/a>
+[![Github repo](https://img.shields.io/static/v1?style=flat&logo=github&label=&message=Open%20Source&color=808080)](https://github.com/david0811/lafferty-sriver_2023_npjCliAtm)\
+*Interactive visualization*: <a href="https://lafferty-sriver-2023-downscaling-uncertainty.msdlive.org/" target="_blank">MSD-LIVE Jupyter-based dashboard</a>
 
 ### 2022
 * **Uncertainty analysis in multi-sector systems: Considerations for risk analysis, projection, and planning for complex systems**, V. Srikrishnan, <ins>D.C. Lafferty</ins>,  T.E. Wong, J.R. Lamontagne, J.D. Quinn, S. Sharma, J.M. Nusrat, J.D. Herman, R.L. Sriver, J.F. Morris, B.S. Lee; *Earth's Future* (2022)\
