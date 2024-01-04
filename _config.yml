@@ -8,10 +8,11 @@ description: > # this means to ignore newlines until "baseurl:"
   under uncertainty.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://david0811.github.io" # the base hostname & protocol for your site
-twitter_username: DavidCLafferty
+# twitter_username: DavidCLafferty
 github_username:  david0811
 orcid_id: 0000-0003-2098-6885
 google_scholar_id: Kpwu3qEAAAAJ
+linkedin_id: david-lafferty-336443122
 
 # Build settings
 markdown: kramdown
