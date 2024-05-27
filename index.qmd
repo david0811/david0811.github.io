@@ -1,6 +1,6 @@
 ---
 title: "David C. Lafferty"
-image: headshot1.png
+image: david.png
 about:
   id: hero-heading
   template: trestles
@@ -17,7 +17,7 @@ about:
       href: https://github.com/david0811
     - icon: linkedin
       text: LinkedIn
-      href: https://github.com/david0811
+      href: https://www.linkedin.com/in/david-lafferty-336443122/
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=Kpwu3qEAAAAJ
@@ -28,9 +28,7 @@ about:
 
 ::: {#hero-heading}
 
-I am a Ph.D. candidate in the Department of Climate, Meteorology, and Atmospheric Sciences at the University of Illinois Urbana-Champaign. My advisor is Professor Ryan Sriver.
+I am a Ph.D. candidate in the [Department of Climate, Meteorology, and Atmospheric Sciences](https://atmos.illinois.edu/) at the University of Illinois Urbana-Champaign. My advisor is [Professor Ryan Sriver](https://rsriver.web.illinois.edu/).
 
-My work tries to understand the uncertainties surrounding projections of future climate and the associated risks of climate change.
-
-I have an M.Sc. from Ruprecht-Karls-Universität Heidelberg and a B.Sc. from the University of Glasgow.
+My work seeks to understand the uncertainties surrounding projections of future climate and the associated risks of climate change. I have an M.Sc. from Ruprecht-Karls-Universität Heidelberg and a B.Sc. from the University of Glasgow.
 :::

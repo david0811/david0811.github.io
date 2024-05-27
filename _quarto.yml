@@ -12,11 +12,11 @@ website:
         text: Home
       - href: research/index.qmd
         text: Research
-      - href: about.qmd
+      # - href: about.qmd
 
 format:
   html:
     theme: lux_custom.scss
-    linkcolor: "lightblue"
+    linkcolor: "indigo"
     fontsize: 1.1em
     toc: true
