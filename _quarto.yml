@@ -1,0 +1,21 @@
+project:
+  type: website
+  resources: 
+    - "DL_CV.pdf"
+
+website:
+  title: "David C. Lafferty"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: about.qmd
+
+format:
+  html:
+    theme: lux_custom.scss
+    linkcolor: "lightblue"
+    fontsize: 1.1em
+    toc: true

@@ -1,0 +1,78 @@
+- title: Assessment of Storm-Associated Precipitation and its Extremes using Observations and Climate Model Short-Range Hindcasts
+  type: "Published"
+  author:
+    - WY. Wu
+    - HY. Ma
+    - D.C. Lafferty
+    - Z. Feng
+    - P. Ullrich
+    - Q. Tang
+    - JC. Golaz
+    - D. Galea
+    - HH. Lee
+  year: 2024
+  journal: "<em>JGR Atmospheres</em>"
+  pdf: "../papers/jgr2024.pdf"
+  pubclosed: "https://doi.org/10.1029/2023JD039697"
+
+- title: Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6
+  type: "Published"
+  author:
+    - D.C. Lafferty
+    - R.L. Sriver
+  year: 2023
+  journal: "<em>npj Climate & Atmospheric Science</em>"
+  pubopen: "https://www.nature.com/articles/s41612-023-00486-0"
+  github: "https://github.com/david0811/lafferty-sriver_2023_npjCliAtm"
+  note: 'Interactive visualization: <a href="https://lafferty-sriver-2023-downscaling-uncertainty.msdlive.org/" target="_blank">MSD-LIVE Jupyter-based dashboard</a>'
+  note1: 'Associated blog post: <a href="https://waterprogramming.wordpress.com/2024/02/27/interactive-visualization-of-scientific-data-and-results-with-panel/" target="_blank">Water Programming</a>'
+
+- title: "Uncertainty analysis in multi-sector systems: Considerations for risk analysis, projection, and planning for complex systems"
+  type: "Published"
+  author:
+    - V. Srikrishnan
+    - D.C. Lafferty
+    - T.E. Wong
+    - J.R. Lamontagne
+    - J.D. Quinn
+    - S. Sharma
+    - J.M. Nusrat
+    - J.D. Herman
+    - R.L. Sriver
+    - J.F. Morris
+    - B.S. Lee
+  year: 2022
+  journal: "<em>Earths Future</em>"
+  pubopen: "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002644"
+  github: "https://github.com/david0811/EarthsFuture_2022_MSD_Uncertainty"
+
+- title: Statistically bias-corrected and downscaled climate models underestimate the adverse effects of extreme heat on U.S. maize yields
+  type: "Published"
+  author:
+    - D.C. Lafferty
+    - R.L. Sriver
+    - I. Haqiqi
+    - T.W. Hertel
+    - K. Keller
+    - R.E. Nicholas
+  year: 2021
+  journal: "<em>Communications Earth & Environment</em>"
+  pubopen: "https://www.nature.com/articles/s43247-021-00266-9"
+  github: "https://github.com/david0811/BCSD_CornYields_UQ"
+  note1: 'Press coverage: <a href="https://las.illinois.edu/news/2021-11-12/researchers-uncover-long-term-shortcomings-predicting-corn-yields" target="_blank">University of Illinois LAS News</a>'
+
+- title: "Improved Gauss law model and in-medium heavy quarkonium at finite density and velocity"
+  type: "Published"
+  author:
+    - D.C. Lafferty
+    - A. Rothkopf
+  year: 2019
+  journal: "<em>Physical Review D</em>"
+  pubopen: "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.056010"
+
+
+# * **Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6**, <ins>D.C. Lafferty</ins> & R.L. Sriver; *npj Clim. Atmos. Sci.* (2023)\
+# *Interactive visualization*: <a href="https://lafferty-sriver-2023-downscaling-uncertainty.msdlive.org/" target="_blank">MSD-LIVE Jupyter-based dashboard</a>
+
+# * **Statistically bias-corrected and downscaled climate models underestimate the adverse effects of extreme heat on U.S. maize yields**, <ins>D.C. Lafferty</ins>, R.L. Sriver, I. Haqiqi, T.W. Hertel, K. Keller, R.E. Nicholas; *Commun. Earth Environ.* (2021)\
+# *Press coverage*: <a href="https://las.illinois.edu/news/2021-11-12/researchers-uncover-long-term-shortcomings-predicting-corn-yields" target="_blank">University of Illinois LAS News</a>

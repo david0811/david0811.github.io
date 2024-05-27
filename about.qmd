@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+I am a Ph.D. candidate in the Department of Climate, Meteorology, and Atmospheric Sciences at the University of Illinois Urbana-Champaign. My advisor is Professor Ryan Sriver. My research seeks to better understand the uncertainties surrounding projections of future climate and the associated risks of climate change. I am particularly interested in the challenges of generating local-scale climate information, and how we can ensure that adaptation decisions are robust to the full range of possible climate futures. Prior to joining the University of Illinois, I earned an M.Sc. from Ruprecht-Karls-Universität Heidelberg and before that, a B.Sc. from the University of Glasgow.
+
+Outside of work, I enjoy running and cycling, playing and watching football soccer, and pretending to be a coffee aficionado.

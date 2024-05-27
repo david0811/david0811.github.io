@@ -1,0 +1,36 @@
+---
+title: "David C. Lafferty"
+image: headshot1.png
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: envelope
+      text: email
+      href: mailto:davidcl2@illinois.edu
+    - icon: filetype-pdf
+      text: CV
+      href: DL_CV.pdf
+    - icon: github
+      text: Github
+      href: https://github.com/david0811
+    - icon: linkedin
+      text: LinkedIn
+      href: https://github.com/david0811
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=Kpwu3qEAAAAJ
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/DavidCLafferty
+---
+
+::: {#hero-heading}
+
+I am a Ph.D. candidate in the Department of Climate, Meteorology, and Atmospheric Sciences at the University of Illinois Urbana-Champaign. My advisor is Professor Ryan Sriver.
+
+My work tries to understand the uncertainties surrounding projections of future climate and the associated risks of climate change.
+
+I have an M.Sc. from Ruprecht-Karls-Universität Heidelberg and a B.Sc. from the University of Glasgow.
+:::

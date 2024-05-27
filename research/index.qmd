@@ -1,0 +1,26 @@
+---
+title: "Publications"
+description: "" 
+listing:
+  - id: published
+    contents: published.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "year desc"
+    sort-ui: false
+  - id: forthcoming
+    contents: forthcoming.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "year desc"
+    sort-ui: false
+toc: false
+---
+
+## In preparation
+:::{#forthcoming}
+:::
+
+## Published
+:::{#published}
+:::
