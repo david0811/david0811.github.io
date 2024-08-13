@@ -28,7 +28,7 @@ about:
 
 ::: {#hero-heading}
 
-I am a Ph.D. candidate in the [Department of Climate, Meteorology, and Atmospheric Sciences](https://atmos.illinois.edu/) at the University of Illinois Urbana-Champaign. My advisor is [Professor Ryan Sriver](https://rsriver.web.illinois.edu/).
+I am a postdoctoral researcher in the [Department of Biological and Environmental Engineering](https://cals.cornell.edu/biological-environmental-engineering) at Cornell University, working with [Professor Vivek Srikrishnan](https://viveks.me/). I work on climate risk management and seek to understand how we can improve societal resilience to climate change in the presence of deep and dynamic uncertainties. 
 
-My work seeks to understand the uncertainties surrounding projections of future climate and the associated risks of climate change. I have an M.Sc. from Ruprecht-Karls-Universität Heidelberg and a B.Sc. from the University of Glasgow.
+I completed my Ph.D. in the [Department of Climate, Meteorology, and Atmospheric Sciences](https://atmos.illinois.edu/) at the University of Illinois Urbana-Champaign, under [Professor Ryan Sriver](https://rsriver.web.illinois.edu/). I have an M.Sc. from Ruprecht-Karls-Universität Heidelberg and a B.Sc. from the University of Glasgow.
 :::
