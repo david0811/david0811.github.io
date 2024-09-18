@@ -8,7 +8,7 @@ about:
   links:
     - icon: envelope
       text: email
-      href: mailto:davidcl2@illinois.edu
+      href: mailto:dcl257@cornell.edu
     - icon: filetype-pdf
       text: CV
       href: DL_CV.pdf
@@ -21,9 +21,6 @@ about:
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=Kpwu3qEAAAAJ
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/DavidCLafferty
 ---
 
 ::: {#hero-heading}

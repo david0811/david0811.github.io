@@ -8,8 +8,8 @@ website:
   title: "David C. Lafferty"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
       - href: research/index.qmd
         text: Research
       # - href: about.qmd
