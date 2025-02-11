@@ -1,7 +1,9 @@
 - title: Understanding Decision-Relevant Regional Data Products Workshop Report
   type: "Other"
+  author: 
+    - "contributing author <em>D.C. Lafferty<\em>"
   year: 2024
-  journal: "Report convened by U.S. Department of Energy Biological and Environmental Research Program"
+  status: "Report convened by U.S. Department of Energy Biological and Environmental Research Program"
   pubopen: "https://doi.org/10.2172/2474992"
 
 - title: Understanding the role of climate uncertainty in analyses of coupled human-environment systems
@@ -9,5 +11,5 @@
   author:
     - D.C. Lafferty
   year: 2024
-  journal: "<em>Ph.D. Thesis</em>"
+  status: "<em>Ph.D. Thesis</em>"
   pubopen: "https://www.ideals.illinois.edu/items/131412"
