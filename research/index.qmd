@@ -26,7 +26,7 @@ listing:
     filter-ui: false
     sort: "year desc"
     sort-ui: false
-toc: true
+toc: false
 ---
 
 ## In preparation
