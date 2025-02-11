@@ -14,7 +14,19 @@ listing:
     filter-ui: false
     sort: "year desc"
     sort-ui: false
-toc: false
+  - id: press
+    contents: press.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "year desc"
+    sort-ui: false
+  - id: other
+    contents: other.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "year desc"
+    sort-ui: false
+toc: true
 ---
 
 ## In preparation
