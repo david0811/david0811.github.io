@@ -21,6 +21,14 @@ toc: false
 :::{#forthcoming}
 :::
 
-## Published
+## In press
+:::{#press}
+:::
+
+## Peer-reviewed
 :::{#published}
+:::
+
+## Other
+:::{#other}
 :::
