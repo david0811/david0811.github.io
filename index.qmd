@@ -1,6 +1,6 @@
 ---
 title: "David C. Lafferty"
-image: david.png
+image: david.jpg
 about:
   id: hero-heading
   template: trestles
@@ -8,7 +8,7 @@ about:
   links:
     - icon: envelope
       text: email
-      href: mailto:dcl257@cornell.edu
+      href: mailto:david.lafferty@live.co.uk
     - icon: filetype-pdf
       text: CV
       href: DL_CV.pdf
@@ -25,7 +25,9 @@ about:
 
 ::: {#hero-heading}
 
-I am a postdoctoral researcher in the [Department of Biological and Environmental Engineering](https://cals.cornell.edu/biological-environmental-engineering) at Cornell University, working with [Professor Vivek Srikrishnan](https://viveks.me/). I work on climate risk management and seek to understand how we can improve societal resilience to climate change in the presence of deep and dynamic uncertainties. 
+I am a research scientist at [Verisk](https://www.verisk.com/) Extreme Event Solutions in the Climate Statistics Team.
+
+Previously, I worked as a postdoctoral researcher in the [Department of Biological and Environmental Engineering](https://cals.cornell.edu/biological-environmental-engineering) at Cornell University, with [Professor Vivek Srikrishnan](https://viveks.me/).
 
 I completed my Ph.D. in the [Department of Climate, Meteorology, and Atmospheric Sciences](https://atmos.illinois.edu/) at the University of Illinois Urbana-Champaign, under [Professor Ryan Sriver](https://rsriver.web.illinois.edu/). I have an M.Sc. from Ruprecht-Karls-Universität Heidelberg and a B.Sc. from the University of Glasgow.
 :::

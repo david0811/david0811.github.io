@@ -2,24 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – David C. Lafferty</title>
+<title>David C. Lafferty - Publications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
 </style>
 
 
@@ -47,13 +42,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -62,10 +51,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 <script>
@@ -78,9 +65,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-journal','listing-pdf','listing-pubclosed','listing-pubopen','listing-github','listing-note','listing-note1',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-journal','listing-pubopen','listing-github','listing-pdf','listing-pubclosed','listing-note','listing-note1',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-journal","listing-pdf","listing-pubclosed","listing-pubopen","listing-github","listing-note","listing-note1"],
+      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-journal","listing-pubopen","listing-github","listing-pdf","listing-pubclosed","listing-note","listing-note1"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,35 +169,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -218,27 +177,22 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+      <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">David C. Lafferty</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link active" href="../research/index.html" aria-current="page">Research</a>
   </li>  
 </ul>
+              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -260,21 +214,16 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
 
-
 </header>
-
 
 <section id="in-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="in-preparation">In preparation</h2>
 <div id="listing-forthcoming" class="quarto-listing quarto-listing-container-custom">
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
 <style>
   .btn-xs {
     padding: 1px 5px;
@@ -286,57 +235,21 @@ window.Quarto = {
     font-size: 1.2em;  /* Adjust as needed */
   }
 </style>
-
 <ul class="list">
-  
     <li data-index="0">
       Varying sources of uncertainty in risk-relevant climate projections over the United States 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
         <small class="text-muted">
           2025. D.C. Lafferty, S.H. Hartke, R.L. Sriver, P.A. Ullrich, V. Srikrishnan. <em>In Preparation</em>.
         </small>
-      
-      
       <!-- paper info for published papers -->
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
 </ul>
-
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -345,9 +258,7 @@ No matching items
 <section id="in-press" class="level2">
 <h2 class="anchored" data-anchor-id="in-press">In press</h2>
 <div id="listing-press" class="quarto-listing quarto-listing-container-custom">
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
 <style>
   .btn-xs {
     padding: 1px 5px;
@@ -359,65 +270,27 @@ No matching items
     font-size: 1.2em;  /* Adjust as needed */
   }
 </style>
-
 <ul class="list">
-  
     <li data-index="0">
       Combined climate and hydrologic uncertainties shape projections of future soil moisture in the eastern United States 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
         <small class="text-muted">
           2025. D.C. Lafferty, D.S. Grogan, S. Zuidema, I. Haqiqi, A. Alipour, R.L. Sriver, K. Keller. <em>Submitted to Earth's Future</em>.
         </small>
-      
-      
       <!-- paper info for published papers -->
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://doi.org/10.22541/essoar.173878030.00737104/v1" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-doi ai-lg"></i> Preprint 
         </a> 
-      
-      
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://github.com/david0811/lafferty-etal-2025-earthsfuture" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-github ai-lg"></i> GitHub 
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
 </ul>
-
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -426,9 +299,7 @@ No matching items
 <section id="peer-reviewed" class="level2">
 <h2 class="anchored" data-anchor-id="peer-reviewed">Peer-reviewed</h2>
 <div id="listing-published" class="quarto-listing quarto-listing-container-custom">
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
 <style>
   .btn-xs {
     padding: 1px 5px;
@@ -440,292 +311,131 @@ No matching items
     font-size: 1.2em;  /* Adjust as needed */
   }
 </style>
-
 <ul class="list">
-  
     <li data-index="0">
+      Downscaled CMIP5 projections of physical fire risk understate historical trends 
+      <br>
+      <p>
+      <!-- paper info for not-yet-published papers -->
+      <!-- paper info for published papers -->
+        <small class="text-muted">
+          2025. T.C. Avila, D.C. Lafferty, M. Stover, S. Guerrero, C. Samantula, I. Sue Wing, R.L. Sriver. <em>Environmental Research Letters</em>.
+        </small>
+      <br>
+        <a role="button" href="https://iopscience.iop.org/article/10.1088/1748-9326/ade892/meta" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+        <a role="button" href="https://github.com/theo-avila/2024_FWI_CMIP5_Ensemble_Avila" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-github ai-lg"></i> GitHub 
+        </a>
+      </p>
+      <hr>
+    </li>
+    <li data-index="1">
       Assessment of Storm-Associated Precipitation and its Extremes using Observations and Climate Model Short-Range Hindcasts 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
-      
       <!-- paper info for published papers -->
-      
         <small class="text-muted">
           2024. WY. Wu, HY. Ma, D.C. Lafferty, Z. Feng, P. Ullrich, Q. Tang, JC. Golaz, D. Galea, HH. Lee. <em>JGR Atmospheres</em>.
         </small>
-      
-      
       <br>
-
-      
-      
-      
-      
-      
         <a role="button" href="../papers/jgr2024.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
         </a> 
-      
-      
-      
-      
-      
         <a role="button" href="https://doi.org/10.1029/2023JD039697" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-closed-access ai-lg"></i> Publisher's Version 
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
-    <li data-index="1">
+    <li data-index="2">
       Downscaling and bias-correction contribute considerable uncertainty to local climate projections in CMIP6 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
-      
       <!-- paper info for published papers -->
-      
         <small class="text-muted">
           2023. D.C. Lafferty, R.L. Sriver. <em>npj Climate &amp; Atmospheric Science</em>.
         </small>
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://www.nature.com/articles/s41612-023-00486-0" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-open-access ai-lg"></i> Open Access
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://github.com/david0811/lafferty-sriver_2023_npjCliAtm" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-github ai-lg"></i> GitHub 
         </a>
-      
-      
-      
-      
-      
         <br>
         <small class="text-secondary">
           <span class="note">Interactive visualization: <a href="https://lafferty-sriver-2023-downscaling-uncertainty.msdlive.org/" target="_blank">MSD-LIVE Jupyter-based dashboard</a></span>    
         </small>
-      
-      
         <br>
         <small class="text-secondary">
           <span class="note">Associated blog post: <a href="https://waterprogramming.wordpress.com/2024/02/27/interactive-visualization-of-scientific-data-and-results-with-panel/" target="_blank">Water Programming</a></span>    
         </small>
-      
-      
-      
       </p>
       <hr>
     </li>
-  
-    <li data-index="2">
+    <li data-index="3">
       Uncertainty analysis in multi-sector systems: Considerations for risk analysis, projection, and planning for complex systems 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
-      
       <!-- paper info for published papers -->
-      
         <small class="text-muted">
           2022. V. Srikrishnan, D.C. Lafferty, T.E. Wong, J.R. Lamontagne, J.D. Quinn, S. Sharma, J.M. Nusrat, J.D. Herman, R.L. Sriver, J.F. Morris, B.S. Lee. <em>Earth's Future</em>.
         </small>
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021EF002644" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-open-access ai-lg"></i> Open Access
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://github.com/david0811/EarthsFuture_2022_MSD_Uncertainty" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-github ai-lg"></i> GitHub 
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
-    <li data-index="3">
+    <li data-index="4">
       Statistically bias-corrected and downscaled climate models underestimate the adverse effects of extreme heat on U.S. maize yields 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
-      
       <!-- paper info for published papers -->
-      
         <small class="text-muted">
           2021. D.C. Lafferty, R.L. Sriver, I. Haqiqi, T.W. Hertel, K. Keller, R.E. Nicholas. <em>Communications Earth &amp; Environment</em>.
         </small>
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://www.nature.com/articles/s43247-021-00266-9" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-open-access ai-lg"></i> Open Access
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://github.com/david0811/BCSD_CornYields_UQ" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="bi bi-github ai-lg"></i> GitHub 
         </a>
-      
-      
-      
-      
-      
-      
         <br>
         <small class="text-secondary">
           <span class="note">Press coverage: <a href="https://las.illinois.edu/news/2021-11-12/researchers-uncover-long-term-shortcomings-predicting-corn-yields" target="_blank">University of Illinois LAS News</a></span>    
         </small>
-      
-      
-      
       </p>
       <hr>
     </li>
-  
-    <li data-index="4">
+    <li data-index="5">
       Improved Gauss law model and in-medium heavy quarkonium at finite density and velocity 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
-      
       <!-- paper info for published papers -->
-      
         <small class="text-muted">
           2019. D.C. Lafferty, A. Rothkopf. <em>Physical Review D</em>.
         </small>
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.101.056010" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-open-access ai-lg"></i> Open Access
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
 </ul>
-
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -734,9 +444,7 @@ No matching items
 <section id="other" class="level2">
 <h2 class="anchored" data-anchor-id="other">Other</h2>
 <div id="listing-other" class="quarto-listing quarto-listing-container-custom">
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
-
 <style>
   .btn-xs {
     padding: 1px 5px;
@@ -748,111 +456,40 @@ No matching items
     font-size: 1.2em;  /* Adjust as needed */
   }
 </style>
-
 <ul class="list">
-  
     <li data-index="0">
       Understanding Decision-Relevant Regional Data Products Workshop Report 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
         <small class="text-muted">
           2024. Contributing author <em>D.C. Lafferty</em>. Report convened by U.S. Department of Energy Biological and Environmental Research Program.
         </small>
-      
-      
       <!-- paper info for published papers -->
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://doi.org/10.2172/2474992" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-open-access ai-lg"></i> Open Access
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
     <li data-index="1">
       Understanding the role of climate uncertainty in analyses of coupled human-environment systems 
       <br>
       <p>
       <!-- paper info for not-yet-published papers -->
-      
         <small class="text-muted">
           2024. D.C. Lafferty. <em>Ph.D. Thesis</em>.
         </small>
-      
-      
       <!-- paper info for published papers -->
-      
-      
       <br>
-
-      
-      
-      
-      
-      
-      
-      
         <a role="button" href="https://www.ideals.illinois.edu/items/131412" type="button" class="btn btn-outline-secondary btn-xs"> 
           <i class="ai ai-open-access ai-lg"></i> Open Access
         </a>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
       </p>
       <hr>
     </li>
-  
 </ul>
-
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -890,15 +527,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -907,73 +541,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -983,308 +561,43 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      let href = ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>
 </div> <!-- /content -->
-
 
 
 

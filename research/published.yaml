@@ -1,3 +1,18 @@
+- title: "Downscaled CMIP5 projections of physical fire risk understate historical trends"
+  type: "Published"
+  author:
+    - T.C. Avila
+    - D.C. Lafferty
+    - M. Stover
+    - S. Guerrero
+    - C. Samantula
+    - I. Sue Wing
+    - R.L. Sriver
+  year: 2025
+  journal: "<em>Environmental Research Letters</em>"
+  pubopen: "https://iopscience.iop.org/article/10.1088/1748-9326/ade892/meta"
+  github: "https://github.com/theo-avila/2024_FWI_CMIP5_Ensemble_Avila"
+  
 - title: Assessment of Storm-Associated Precipitation and its Extremes using Observations and Climate Model Short-Range Hindcasts
   type: "Published"
   author:
