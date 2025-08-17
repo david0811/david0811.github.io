@@ -1,3 +1,19 @@
+- title: Combined climate and hydrologic uncertainties shape projections of future soil moisture in the eastern United States
+  type: "Published"
+  author:
+    - D.C. Lafferty
+    - D.S. Grogan
+    - S. Zuidema
+    - I. Haqiqi
+    - A. Alipour
+    - R.L. Sriver
+    - K. Keller
+  year: 2025
+  journal: "<em>Earth's Future</em>"
+  pubopen: "https://doi.org/10.1029/2025EF006040"
+  github: "https://github.com/david0811/lafferty-etal-2025-earthsfuture"
+  note: 'Output datasets: <a href="https://www.datacommons.psu.edu/commonswizard/MetadataDisplay.aspx?Dataset=6461" target="_blank">PSU Data Commons</a>'
+
 - title: "Downscaled CMIP5 projections of physical fire risk understate historical trends"
   type: "Published"
   author:
